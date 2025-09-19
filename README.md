@@ -15,7 +15,7 @@
 
 ---
 
-📝 Introduction
+## 📝 Introduction
 
 <details> <summary><strong>📌 Overview (click to expand)</strong></summary>
 Overview
@@ -54,7 +54,7 @@ Calculation Groups: Used for dynamic time intelligence comparisons (e.g., Previo
 
 ---
 
-🎯 Case Study
+## 🎯 Case Study
 
 <details> <summary><strong>📌 Project Overview (click to expand)</strong></summary>
 Project Overview
@@ -83,7 +83,7 @@ This project transformed sales data into an interactive Power BI dashboard to tr
 
 ---
 
-📊 Main KPIs
+## 📊 Main KPIs
 
 • 💰 Total Revenue: $30.09M
 
@@ -105,7 +105,7 @@ This project transformed sales data into an interactive Power BI dashboard to tr
 
 ---
 
-⚙️ Process
+## ⚙️ Process
 
 Imported raw data into Power BI
 
@@ -133,16 +133,26 @@ Designed interactive visuals, slicers, and filters
 ---
 
 ## 🔍 Key Insights
-1. **Insight #1**: [e.g., High revenue concentration in a few products]  
-2. **Insight #2**: [e.g., Peak sales during specific months or events]  
-3. **Insight #3**: [e.g., Specific customer segments show high loyalty]  
-4. **Insight #4**: [e.g., Underutilized regions or product categories]  
-5. **Insight #5**: [e.g., Inventory challenges during high demand periods]  
+
+Insight #1: Bikes category dominates revenue - Generating 1,188 orders (81% of total), indicating heavy reliance on a single product category
+
+Insight #2: European market leads performance - Europe outperforms other regions (North America, Pacific) in both order volume and revenue generation
+
+Insight #3: Significant freight costs - $915.97K in freight expenses, representing approximately 3% of total revenue, impacting overall profitability
+
+Insight #4: Seasonal patterns evident - Monthly trends across 2013-2014 show clear fluctuations in order volume and revenue, indicating seasonal demand variations
+
+Insight #5: Revenue-conversion gap - $3.84M difference between Total Due ($33.93M) and Total Revenue ($30.09M), suggesting potential collection or discounting challenges  
 
 ---
 
 ## 💡 Conclusion
-This dashboard enables data-driven decision-making by offering a comprehensive view of performance metrics. It supports strategic planning by highlighting key trends, patterns, and opportunities for optimization.
+
+• Identifying revenue concentration in the Bikes category (81% of orders)
+• Revealing geographic strengths with Europe as the dominant market
+• Highlighting cost optimization opportunities through freight expense analysis
+• Tracking seasonal patterns for better inventory and resource planning
+• Pinpointing revenue leakage through the $3.84M Total Due vs Revenue gap
 
 ---
 
