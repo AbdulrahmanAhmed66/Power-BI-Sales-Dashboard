@@ -5,6 +5,10 @@
 ### 🌐 [View Interactive Dashboard](https://your-dashboard-link.com)
 
 <br>
+
+## 🎥 Project Demo  
+<img src="Project Description/Project1 Gif.gif?raw=true" width="1000">
+
 <div align="center">
   <img src="Project Description/Screenshot (44).png?raw=true" alt="Dashboard Banner" width="1000" height="500">
 </div>
@@ -121,13 +125,10 @@ Designed interactive visuals, slicers, and filters
 ---
 
 ## 📈 Dashboard Preview  
-<img src="https://github.com/your-username/your-repo/blob/main/assets/dashboard-1.png?raw=true" width="1000">
-<img src="https://github.com/your-username/your-repo/blob/main/assets/dashboard-2.png?raw=true" width="1000">
+<img src="Project Description/Screenshot (44).png?raw=true" width="1000">
+<img src="Project Description/Screenshot (45).png?raw=true" width="1000">
 
----
 
-## 🎥 Project Demo  
-<img src="https://github.com/your-username/your-repo/blob/main/assets/demo.gif?raw=true" width="1000">
 
 ---
 
