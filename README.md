@@ -1,167 +1,157 @@
-# 📊 Power BI Sales Dashboard
+# 📊 Power BI Sales Dashboard  
 
-### 🔗 [My LinkedIn](https://www.linkedin.com/in/abdulrahman-ahmed66)
-### 📥 [Download the PBIX File](Project1.pbix?raw=true)
-### 🌐 [View Interactive Dashboard](https://your-dashboard-link.com)
-
-<br>
-
-## 🎥 Project Demo  
-<img src="Project Description/Project1 Gif.gif?raw=true" width="1000">
-
-<div align="center">
-  <img src="Project Description/Screenshot (44).png?raw=true" alt="Dashboard Banner" width="1000" height="500">
-</div>
+### 🔗 [My LinkedIn](https://www.linkedin.com/in/abdulrahman-ahmed66)  
+### 📥 [Download the PBIX File](Project1.pbix?raw=true)  
+### 🌐 [View Interactive Dashboard](https://your-dashboard-link.com)  
 
 ---
 
-## 📝 Introduction
+## 🎥 Project Demo  
+<img src="Project Description/Project1 Gif.gif?raw=true" width="1000">  
 
-<details> <summary><strong>📌 Overview (click to expand)</strong></summary>
-Overview
-This Power BI project delivers a comprehensive analysis of sales performance and order management for a retail or distribution business. By transforming raw transactional data into an interactive data model, it enables stakeholders to track key financial metrics, analyze trends over time, and evaluate performance across product categories and geographic territories.
-The dashboard is designed to empower data-driven decision-making for sales strategy, inventory planning, and market expansion.
+<div align="center">
+  <img src="Project Description/Screenshot (44).png?raw=true" alt="Dashboard Banner" width="1000" height="500">
+</div>  
 
-details> <summary><strong>📂 Data Sources & Model (click to expand)</strong></summary>
+---
 
-The analysis is built on a structured **Star Schema** data model in Power BI, consisting of fact and dimension tables imported and refined using **Power Query**.
+## 📝 Introduction  
+
+<details>  
+<summary><strong>📌 Overview (click to expand)</strong></summary>  
+
+This Power BI project delivers a comprehensive analysis of **sales performance** and **order management** for a retail or distribution business.  
+
+By transforming raw transactional data into an interactive data model, it enables stakeholders to:  
+- Track key financial metrics  
+- Analyze trends over time  
+- Evaluate performance across product categories and geographic territories  
+
+👉 The dashboard empowers **data-driven decision-making** for sales strategy, inventory planning, and market expansion.  
+
+</details>  
+
+<details>  
+<summary><strong>📂 Data Sources & Model (click to expand)</strong></summary>  
+
+The analysis is built on a structured **Star Schema** data model in Power BI, consisting of fact and dimension tables imported and refined using **Power Query**.  
 
 ---
 
 ### 📊 Fact Table  
+**fct_Sales** → Central fact table containing transactional data.  
 
-**fct_Sales**: The central fact table containing transactional data.  
-
-**Key Columns**: Commercial, Dealer, Freight, Luxurtail, Production, Maintenance, Displacement, Branch, Issues, and other financial measures.  
+**Key Columns**:  
+Commercial, Dealer, Freight, Luxurtail, Production, Maintenance, Displacement, Branch, Issues, and other financial measures.  
 
 ---
 
 ### 📐 Dimension Tables  
+- **dim_Date** → Provides a full date hierarchy (Year, Quarter, Month, Day).  
+  - Enables YTD, MTD, seasonal, and trend analysis.  
 
-- **dim_Date**: Created in **Power Query** to provide a dedicated date hierarchy for time intelligence analysis (Year, Quarter, Month, Day).  
-  - Enables accurate calculations for seasonal trends, YTD, and MTD reporting.  
+- **dim_Product** → Product details and hierarchy (Product, Category, Subcategory).  
 
-- **dim_Product**: Contains product details and hierarchy (Product, Category, Subcategory).  
+- **dim_Territory** → Sales regions (Europe, North America, Pacific).  
 
-- **dim_Territory**: Defines the sales regions and groups (e.g., Europe, North America, Pacific).  
+- **dim_Status** → Tracks order status (Approved, Shipped, etc.).  
 
-- **dim_Status**: Tracks the status of orders (e.g., Approved, Shipped).  
-
-- **dim_Ship_Method**: Specifies the shipping methods used.  
+- **dim_Ship_Method** → Shipping methods used.  
 
 ---
 
 ### ⚙️ Other Components  
+- **Measures** → Custom DAX calculations (Revenue, Total Due, YTD, etc.).  
+- **Calculation Groups** → Enable dynamic time intelligence (Previous Year, MTD, QTD).  
 
-- **Measures**: Custom DAX calculations (e.g., Total Revenue, Total Due, YTD calculations) are stored in a hidden "Measures" table.  
-- **Calculation Groups**: Used for dynamic time intelligence comparisons (e.g., Previous Year, MTD, QTD).  
-
-</details>
----
-
-## 🎯 Case Study
-
-<details> <summary><strong>📌 Project Overview (click to expand)</strong></summary>
-Project Overview
-This project transformed sales data into an interactive Power BI dashboard to track order and revenue performance across:
-
-• Geographic territories (Europe, North America, Pacific)
-
-• Product categories (Bikes, Components, Clothing, Accessories)
-
-• Order statuses and financial metrics (Revenue, Tax, Freight)
-
-</details> <details> <summary><strong>📊 Key Results (click to expand)</strong></summary>
-
-  
-• $30.09M Total Revenue from 1,465 orders
-  
-• Bikes dominated as the top category (1,188 orders)
-
-• Europe led as the highest-performing market
-
-• $915.97K Total Freight cost
-
-• $33.93M Total Due (financial obligations)
-
-</details>
+</details>  
 
 ---
 
-## 📊 Main KPIs
+## 🎯 Case Study  
 
-• 💰 Total Revenue: $30.09M
+<details>  
+<summary><strong>📌 Project Overview (click to expand)</strong></summary>  
 
-• 💰 Total Due (Financial Obligation): $33.93M
+This project transformed sales data into an **interactive Power BI dashboard** to track order and revenue performance across:  
 
-• 📦 Total Freight: $915.97K
+- Geographic territories: *Europe, North America, Pacific*  
+- Product categories: *Bikes, Components, Clothing, Accessories*  
+- Order statuses and financial metrics: *Revenue, Tax, Freight*  
 
-• 📦 Number of Orders: 1,465
+</details>  
 
-• 🏆 Best Performing Product Category: Bikes (1,188 orders)
+<details>  
+<summary><strong>📊 Key Results (click to expand)</strong></summary>  
 
-• 📉 Lower Performing Product Category: Accessories (503 orders)
+- 💰 **$30.09M** Total Revenue (1,465 orders)  
+- 🚴 **Bikes dominated** → 1,188 orders (Top category)  
+- 🌍 **Europe** → Highest-performing region  
+- 🚚 **$915.97K** Total Freight cost  
+- 💳 **$33.93M** Total Due (financial obligations)  
 
-• 📍 Top Performing Region: Europe
-
-• 🕒 Time-Based Trends: Tracks order volume and revenue by month (2013-2014)
-
-• 📊 Order Status Segmentation: Provides breakdown of orders by status for operational insight
+</details>  
 
 ---
 
-## ⚙️ Process
+## 📊 Main KPIs  
 
-Imported raw data into Power BI
+| KPI | Value |
+|-----|-------|
+| 💰 Total Revenue | **$30.09M** |
+| 💳 Total Due (Financial Obligation) | **$33.93M** |
+| 🚚 Total Freight | **$915.97K** |
+| 📦 Number of Orders | **1,465** |
+| 🏆 Best Performing Category | **Bikes (1,188 orders)** |
+| 📉 Lower Performing Category | **Accessories (503 orders)** |
+| 🌍 Top Performing Region | **Europe** |
+| 🕒 Time Trends | Revenue & orders by month (2013–2014) |
+| 📊 Order Status Segmentation | Breakdown of orders by status |
 
-Cleaned and transformed data using Power Query
+---
 
-Built a star schema for modeling relationships
+## ⚙️ Process  
 
-Created DAX measures for dynamic metrics and KPIs
-
-Designed interactive visuals, slicers, and filters
+1. Imported raw data into **Power BI**  
+2. Cleaned & transformed data using **Power Query**  
+3. Built a **Star Schema** for relationships  
+4. Created **DAX measures** for KPIs and metrics  
+5. Designed interactive visuals, slicers, and filters  
 
 ---
 
 ## 📐 Data Model  
-![Data Model](Project%20Description/Screenshot%20(47).png?raw=true)
+![Data Model](Project%20Description/Screenshot%20(47).png?raw=true)  
 
 ---
 
 ## 📈 Dashboard Preview  
-<img src="Project Description/Screenshot (44).png?raw=true" width="1000">
-<img src="Project Description/Screenshot (45).png?raw=true" width="1000">
-
-
+<img src="Project Description/Screenshot (44).png?raw=true" width="1000">  
+<img src="Project Description/Screenshot (45).png?raw=true" width="1000">  
 
 ---
 
-## 🔍 Key Insights
+## 🔍 Key Insights  
 
-Insight #1: Bikes category dominates revenue - Generating 1,188 orders (81% of total), indicating heavy reliance on a single product category
-
-Insight #2: European market leads performance - Europe outperforms other regions (North America, Pacific) in both order volume and revenue generation
-
-Insight #3: Significant freight costs - $915.97K in freight expenses, representing approximately 3% of total revenue, impacting overall profitability
-
-Insight #4: Seasonal patterns evident - Monthly trends across 2013-2014 show clear fluctuations in order volume and revenue, indicating seasonal demand variations
-
-Insight #5: Revenue-conversion gap - $3.84M difference between Total Due ($33.93M) and Total Revenue ($30.09M), suggesting potential collection or discounting challenges  
+1. 🚴 **Bikes dominate revenue** → 1,188 orders (81% of total) → heavy reliance on one product category  
+2. 🌍 **Europe leads** → strongest region in both orders & revenue  
+3. 🚚 **Freight costs significant** → $915.97K (~3% of revenue), impacting profitability  
+4. 📅 **Seasonal demand patterns** → clear monthly fluctuations (2013–2014)  
+5. 💳 **Revenue gap** → $3.84M difference (Total Due $33.93M vs Revenue $30.09M) → possible discounts or collection issues  
 
 ---
 
-## 💡 Conclusion
+## 💡 Conclusion  
 
-• Identifying revenue concentration in the Bikes category (81% of orders)
-• Revealing geographic strengths with Europe as the dominant market
-• Highlighting cost optimization opportunities through freight expense analysis
-• Tracking seasonal patterns for better inventory and resource planning
-• Pinpointing revenue leakage through the $3.84M Total Due vs Revenue gap
+- 📌 Identified **revenue concentration** in Bikes (81% of orders)  
+- 📌 Highlighted **Europe** as the dominant market  
+- 📌 Exposed **freight costs** for potential optimization  
+- 📌 Seasonal trends useful for **inventory planning**  
+- 📌 Found **revenue leakage** ($3.84M gap: Total Due vs Revenue)  
 
 ---
 
-## 🧰 Tools Used
+## 🧰 Tools Used  
 - **Power BI Desktop**  
 - **Power Query**  
 - **DAX**  
