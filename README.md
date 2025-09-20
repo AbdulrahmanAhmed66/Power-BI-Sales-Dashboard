@@ -22,36 +22,41 @@ Overview
 This Power BI project delivers a comprehensive analysis of sales performance and order management for a retail or distribution business. By transforming raw transactional data into an interactive data model, it enables stakeholders to track key financial metrics, analyze trends over time, and evaluate performance across product categories and geographic territories.
 The dashboard is designed to empower data-driven decision-making for sales strategy, inventory planning, and market expansion.
 
-</details> <details> <summary><strong>📂 Data Sources & Model (click to expand)</strong></summary>
-Data Sources & Model
-The analysis is built on a structured Star Schema data model in Power BI, consisting of fact and dimension tables imported and refined using Power Query.
+details> <summary><strong>📂 Data Sources & Model (click to expand)</strong></summary>
 
-▼ 📊 Fact Table
+The analysis is built on a structured **Star Schema** data model in Power BI, consisting of fact and dimension tables imported and refined using **Power Query**.
 
-fct_Sales: The central fact table containing transactional data.
+---
 
-Key Columns: Commercial, Dealer, Freight, Luxurtail, Production, Maintenance, Displacement, Branch, Issues, and other financial measures.
+### 📊 Fact Table  
 
-▼ 📐 Dimension Tables
+**fct_Sales**: The central fact table containing transactional data.  
 
-dim_Date: Contains date hierarchies for time intelligence analysis (Year, Quarter, Month, Day).
+**Key Columns**: Commercial, Dealer, Freight, Luxurtail, Production, Maintenance, Displacement, Branch, Issues, and other financial measures.  
 
-dim_Product: Contains product details and hierarchy (Product, Category, Subcategory).
+---
 
-dim_Territory: Defines the sales regions and groups (e.g., Europe, North America, Pacific).
+### 📐 Dimension Tables  
 
-dim_Status: Tracks the status of orders (e.g., Approved, Shipped).
+- **dim_Date**: Created in **Power Query** to provide a dedicated date hierarchy for time intelligence analysis (Year, Quarter, Month, Day).  
+  - Enables accurate calculations for seasonal trends, YTD, and MTD reporting.  
 
-dim_Ship_Method: Specifies the shipping methods used.
+- **dim_Product**: Contains product details and hierarchy (Product, Category, Subcategory).  
 
-▼ ⚙️ Other Components
+- **dim_Territory**: Defines the sales regions and groups (e.g., Europe, North America, Pacific).  
 
-Measures: Custom DAX calculations (e.g., Total Revenue, Total Due, YTD calculations) are stored in a hidden "Measures" table.
+- **dim_Status**: Tracks the status of orders (e.g., Approved, Shipped).  
 
-Calculation Groups: Used for dynamic time intelligence comparisons (e.g., Previous Year, MTD, QTD).
+- **dim_Ship_Method**: Specifies the shipping methods used.  
+
+---
+
+### ⚙️ Other Components  
+
+- **Measures**: Custom DAX calculations (e.g., Total Revenue, Total Due, YTD calculations) are stored in a hidden "Measures" table.  
+- **Calculation Groups**: Used for dynamic time intelligence comparisons (e.g., Previous Year, MTD, QTD).  
 
 </details>
-
 ---
 
 ## 🎯 Case Study
