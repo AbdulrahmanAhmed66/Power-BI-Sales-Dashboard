@@ -2,7 +2,6 @@
 
 ### 🔗 [My LinkedIn](https://www.linkedin.com/in/abdulrahman-ahmed66)  
 ### 📥 [Download the PBIX File](Project1.pbix?raw=true)  
-### 🌐 [View Interactive Dashboard](https://your-dashboard-link.com)  
 
 ---
 
